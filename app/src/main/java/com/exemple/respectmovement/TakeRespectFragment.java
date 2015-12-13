@@ -80,12 +80,12 @@ public class TakeRespectFragment extends Fragment {
         receiverString = (TextView) rootView.findViewById(R.id.receiver);
         motiveString = (TextView) rootView.findViewById(R.id.motive);
 
-        sendRespect();
+        sendTakeRespect();
 
         return rootView;
     }
 
-    private void sendRespect() {
+    private void sendTakeRespect() {
         //Send respect to DB
     }
 
