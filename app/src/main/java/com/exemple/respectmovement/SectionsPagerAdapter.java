@@ -22,7 +22,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
 
         switch (position) {
             case 0:
-                return GiveRespectFragment.newInstance(position);
+                //return GiveRespectFragment.newInstance(position);
             case 1:
                 //return TakeRespectFragment.newInstance(position);
             case 2:
@@ -33,7 +33,7 @@ public class SectionsPagerAdapter extends FragmentPagerAdapter {
         // getItem is called to instantiate the fragment for the given page.
         // Return a PlaceholderFragment (defined as a static inner class below).
 
-        return null;
+        return GiveRespectFragment.newInstance(position);
     }
 
     @Override
